@@ -13,8 +13,8 @@ body {
 
 .launch-button {
     position: absolute;
-    top: 75%;
     left: 50%;
+    top: 75%;
     transform: translate(-50%, -50%);
     text-decoration: none;
     background-color: #aa0000;
@@ -42,7 +42,6 @@ body {
     top: 50%;
     right: 40px;
     transition: transform 0.5s;
-
 }
 
 .launch-button .rocket i {
@@ -51,8 +50,9 @@ body {
     left: 0;
 }
 
+
 .launch-button .fa-rocket {
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .launch-button .fa-burn {

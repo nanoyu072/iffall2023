@@ -11,15 +11,15 @@
     z-index: -1;
 }
 
-.absolute-example .positioned-element {
+.absolute-example .positioned-element { 
     background-color: red;
-    position: absolute;
+    position: absolute; 
     top: 0;
+    right: 0
 }
-
 .absolute-example {
     position: relative; 
-    right: 0;
+
 }
 
 .fixed-example .positioned-element {
